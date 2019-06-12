@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2) do
+ActiveRecord::Schema.define(version: 1) do
 
   create_table "", force: :cascade do |t|
     t.text "name"
@@ -24,7 +24,6 @@ ActiveRecord::Schema.define(version: 2) do
     t.text "genre"
     t.integer "age"
     t.text "hometown"
-    t.string "favorite_food"
   end
 
 end
