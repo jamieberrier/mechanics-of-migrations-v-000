@@ -1,7 +1,6 @@
 class CreateArtists < ActiveRecord::Migration
-  def up
+  def change
+  create_table :artists do |t|
   end
-
-  def down
-  end
+end
 end
